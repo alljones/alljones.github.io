@@ -85,6 +85,7 @@ main {
     grid-gap: 30px;
     grid-template-areas:
     'bioimage bio bio'
+    'skill1 skill2 skill3'
     'job1 job2 job3';
     grid-template-columns: repeat(3, 1fr);
 
@@ -101,8 +102,20 @@ main {
         font-size: 1.5rem;
     }
     
-    .job-1 {
-        grid-area: job1;
+    .skill-1 {
+        grid-area: skill1;
+    }
+    
+    .skill-2 {
+        grid-area: skill2;
+    }
+
+    .skill-3 {
+        grid-area: skill3;
+    }
+
+    .skill {
+        padding: 1rem;
     }
     
     .job-2 {
