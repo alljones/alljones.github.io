@@ -2,7 +2,8 @@
   "name": "modern-folio",
   "version": "1.0.0",
   "description": "responsive portfolio website",
-  "homepage": "https://alljones.github.io/dist",
+  "homepage": "https://alljones.github.io/alljones.github.io
+  ",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
